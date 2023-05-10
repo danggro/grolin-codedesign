@@ -1,0 +1,35 @@
+:root {
+  --textDark: #202433;
+  --dark: #33394f;
+  --primary: #fc728b;
+  --whiteSec: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: var(--textDark);
+  display: flex;
+}
+
+button {
+  cursor: pointer;
+}
+
+main {
+  width: 50%;
+  padding: 140px;
+  color: #fff;
+}
+
+@media only screen and (max-width: 428px) {
+  body {
+    display: block;
+  }
+  aside {
+    display: none;
+  }
+  main {
+    width: 100%;
+    padding: 80px 40px;
+  }
+}

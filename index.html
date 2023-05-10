@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grolin - Login Page</title>
+    <link rel="stylesheet" href="Style/style.css" />
+    <link rel="stylesheet" href="Style/reset.css" />
+    <link rel="stylesheet" href="Style/Aside.css" />
+    <link rel="stylesheet" href="Style/Main.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+    </style>
+  </head>
+  <body>
+    <aside-aside></aside-aside>
+    <main>
+      <h3>Login</h3>
+      <p class="textTitle">
+        You can login with your registered account or quick login with your
+        Google account.
+      </p>
+      <a href="#" class="google">
+        <img src="Public/Google.svg" alt="Google" />
+        Login with Google
+      </a>
+      <div class="line">
+        <span></span>
+        <p>or</p>
+        <span></span>
+      </div>
+      <form>
+        <div class="email">
+          <label for="email">Email</label>
+          <input type="email" required id="email" />
+        </div>
+        <div class="password">
+          <label for="password"
+            ><p>Password</p>
+            <a href="#">Forgot Password?</a>
+          </label>
+          <input type="password" required id="password" />
+        </div>
+        <div class="remember">
+          <input type="checkbox" id="checkbox" />
+          <label for="checkbox">Remember me</label>
+        </div>
+        <button type="submit">Login</button>
+      </form>
+      <p class="register">
+        Don&apos;t have an account? <a href="register.html">Create one!</a>
+      </p>
+    </main>
+    <script src="Components/Aside.js"></script>
+    <script src="Components/TwitterAside.js"></script>
+    <script src="Components/InstagramAside.js"></script>
+  </body>
+</html>

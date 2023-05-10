@@ -1,0 +1,111 @@
+aside {
+  /* width: 50%; */
+  height: 100vh;
+  padding: 17px 0 17px 17px;
+}
+
+aside .boxAside {
+  background: linear-gradient(152.9deg, #f4c395 0.44%, #f27f94 100%);
+  border-radius: 20px;
+  height: 100%;
+  padding: 114px 180px 53px 79px;
+  position: relative;
+  color: var(--textDark);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+aside .boxAside > div:first-child p {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 0.1em;
+  margin-top: 40px;
+  margin-bottom: 4px;
+}
+
+aside .boxAside h1 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 56px;
+}
+
+aside .boxAside .footAside {
+  display: flex;
+  gap: 11px;
+  align-items: center;
+}
+
+aside .boxAside .footAside span {
+  width: 4px;
+  height: 4px;
+  background-color: var(--textDark);
+  border-radius: 100%;
+}
+
+aside .boxAside .footAside a {
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+aside .boxAside .footAside a:hover {
+  text-decoration: underline;
+}
+
+aside .middleAside {
+  top: 45%;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+}
+
+aside .containerCardAside {
+  display: flex;
+  gap: 48px;
+}
+
+aside .boxAside .cardAside {
+  width: 287px;
+  height: 220px;
+  padding: 37px 38px 53px 38px;
+  background: #ffe3ca;
+  box-shadow: 10px 10px 0px rgba(32, 36, 51, 0.14);
+  border-radius: 10px;
+}
+
+aside .boxAside .cardAside h5 {
+  font-weight: 600;
+  margin-top: 27px;
+  margin-bottom: 9px;
+}
+
+aside .boxAside .cardAside p {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+aside .middleAside .listCard {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 73px;
+}
+
+aside .middleAside .listCard .full {
+  width: 30px;
+  height: 12px;
+  background: #ffe3ca;
+  border-radius: 100px;
+}
+
+aside .middleAside .listCard .half {
+  background: rgba(255, 227, 202, 0.5);
+  border-radius: 100px;
+  width: 12px;
+  height: 12px;
+}

@@ -1,0 +1,133 @@
+main h3 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+}
+
+main .textTitle {
+  line-height: 28px;
+  color: var(--whiteSec);
+  margin: 10px 0 30px 0;
+}
+
+main .google {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 25px;
+  gap: 15px;
+  background-color: #fff;
+  border-radius: 6px;
+  font-weight: 600;
+  line-height: 19px;
+  color: var(--textDark);
+  width: 100%;
+  border: 2px solid #fff;
+}
+
+main .google:hover {
+  background-color: transparent;
+  color: #fff;
+}
+
+main .line {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 32px 0 38px 0;
+}
+
+main .line span {
+  display: block;
+  width: 200px;
+  height: 2px;
+  background: var(--dark);
+  flex-grow: 1;
+}
+
+main form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+main form label {
+  font-weight: 600;
+  line-height: 19px;
+  display: block;
+}
+
+main form .password label {
+  display: flex;
+  justify-content: space-between;
+}
+
+main form .password label a {
+  color: var(--primary);
+}
+
+main form .password label a:hover {
+  text-decoration: underline;
+}
+
+main form input {
+  background-color: var(--dark);
+  padding: 20px 40px;
+  line-height: 19px;
+  border-radius: 8px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+form .remember {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+form .remember input {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+
+form .remember label {
+  cursor: pointer;
+}
+
+form .remember input:checked {
+  background-color: var(--primary);
+  border: 2px solid #fff;
+}
+
+form button {
+  text-align: center;
+  padding: 25px;
+  border-radius: 6px;
+  background-color: var(--primary);
+  color: var(--textDark);
+  font-weight: 600;
+  border: 2px solid var(--primary);
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: transparent;
+  color: var(--primary);
+}
+
+main .register {
+  text-align: center;
+  color: var(--whiteSec);
+  margin-top: 55px;
+}
+
+main .register a {
+  color: var(--primary);
+}
+
+main .register a:hover {
+  text-decoration: underline;
+}
